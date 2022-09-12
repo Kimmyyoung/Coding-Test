@@ -11,8 +11,6 @@
       //예외처리
       if(num === 0) return null;
       
-      
-      
      while(remain !== 0){
       reversed1 *= 10;
       reversed1 += remain % 10;
