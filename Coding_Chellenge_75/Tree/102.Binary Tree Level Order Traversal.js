@@ -13,7 +13,7 @@
  var levelOrder = function(root) {
     const result = [];
     
-    function dfs (node, depth){
+    function bfs (node, depth){
         if(!node) return;
         
         if(!result[depth]) {
@@ -21,10 +21,11 @@
         }
         
         result[depth].push(node.val);
-        dfs(node.left, depth+1);
-        dfs(node.right, depth+1);
+        bfs(node.left, depth+1);
+        bfs(node.right, depth+1);
     }
     
     dfs(root,0);
     return result;
 };
+
