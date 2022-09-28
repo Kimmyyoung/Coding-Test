@@ -25,7 +25,7 @@
         bfs(node.right, depth+1);
     }
     
-    dfs(root,0);
+    bfs(root,0);
     return result;
 };
 
