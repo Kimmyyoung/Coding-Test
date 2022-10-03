@@ -12,6 +12,9 @@
 
 //계단을 한칸씩 올라가는 방법 혹은 두칸씩 올라가는 방법이 있는데 cost 배열 속 인자만큼 값을 지불해야한다. 
 //이럴때 가장 최소의 돈을 지불하고 마지막 계단까지 올라 갈 수 있는 금액은 얼마인가?
+//Bottom Up Algorithm : Dynamic Programming
 
 //T.C : O(n)
-//S.C : O(n)
+//S.C : O(n) : Call stack 이기 때문에,
+
+
