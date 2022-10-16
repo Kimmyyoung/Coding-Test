@@ -20,6 +20,7 @@
      return ([left+1, right+1]);
      
  };
+ //Sorted Array
  
  //two pointer Algorithm
  //[2,7,11,15]
