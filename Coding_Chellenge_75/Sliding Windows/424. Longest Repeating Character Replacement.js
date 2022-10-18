@@ -22,4 +22,4 @@
     }
     
     return right-left;
-};
+};s
