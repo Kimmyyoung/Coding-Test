@@ -49,4 +49,4 @@
 // nums[L] + nums[R] = 1 < 4 => L++;
 // nums[L] + nums[R] = 1 < 4 => L++;
 // nums[L] + nums[R] = 3 < 4 => L++;
-// nums[L] + nums[R] = 4 = 4 => res.push(nums[left], nums[right], nums[0])
+// nums[L] + nums[R] = 4 = 4 => res.push(numss[left], nums[right], nums[0])
