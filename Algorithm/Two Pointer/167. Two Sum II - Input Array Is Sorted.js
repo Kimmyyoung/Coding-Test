@@ -22,9 +22,16 @@
  };
  //Sorted Array
  
- //two pointer Algorithm
- //[2,7,11,15]
- // l.      r
- //while (l+r !== target)
- //if(target) result.push(l, r) 1++
- //else r--;
+
+ //Sorted Array => Algorithm "Two Pointer"
+
+ /*
+
+ Time Complexity 
+ : The time complexity of the above algorithm will be O(N), where 'N' is the total number of elements in the given array.
+
+ Spcace Complexity
+: The algorithm runs in constant space O(1)
+
+
+ */
