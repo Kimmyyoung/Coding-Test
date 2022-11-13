@@ -12,4 +12,5 @@ if the current interval overlap with the top of the stack then, update the stack
 
 
 *** Stack : First In Last out
+*** Queue : First In First out (Think about Spotify)
 
