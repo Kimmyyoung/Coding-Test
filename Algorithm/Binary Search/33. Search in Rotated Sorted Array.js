@@ -26,3 +26,15 @@
 return -1;
     
 };
+
+
+/*
+Time Complexity : O(logN) Becase we are checking the nums[mid] instead of checking every elements.
+Space Complexity : O(1) We do not use extra space
+
+IF smallest <= target <= biggest
+  then target is here
+ELSE
+  then target is on the other side
+
+*/
